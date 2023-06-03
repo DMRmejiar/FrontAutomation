@@ -26,7 +26,7 @@ public class ReEntryApplicationStepDefinitions {
     }
     @Given("I am on the home page")
     public void userOnTheHomePage() {
-        theActorInTheSpotlight().wasAbleTo(Open.url("http://localhost:3000/"));
+        theActorInTheSpotlight().wasAbleTo(Open.url("https://ingresos-y-reingresos.vercel.app/"));
     }
 
 
