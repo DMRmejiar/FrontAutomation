@@ -1,0 +1,260 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle"></span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="78b07380ccddbc594f9c6e080939b820e71d53b9738cc8537a6da2c7d6c73837.html">Loan Simulation</a></span>
+                > <span class="truncate-60"><a
+                    href="d2e1ecc8e7e76d44f0d664a5fff6ba025d4b95d96df0cd7e26b334ae8d7538dc.html">Simulate a free investment loan </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 10-05-2023 19:37</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Loan Simulation </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                As a user<br />
+I want to be able to simulate a loan<br />
+So that I can get an estimate of the monthly payments
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Simulate a free investment loan
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="f1b04c067a57b1f852c012598481df00e9841cac63e56215243f6b3f01044119.png" title=" Given I am on the Bancolombia website" width="1920"/>
+                <img src="f1b04c067a57b1f852c012598481df00e9841cac63e56215243f6b3f01044119.png" title=" Santiago opens the https://www.bancolombia.com/personas" width="1920"/>
+                <img src="f1b04c067a57b1f852c012598481df00e9841cac63e56215243f6b3f01044119.png" title=" Given I am on the Bancolombia website (completed)" width="1920"/>
+                <img src="46a4548626360e452e35936989c14200bc11ab5395d04620837f305d1dab88d8.png" title=" When I click on &quot;SABER M&Aacute;S&quot; button under the title &quot;Financia lo que sue&ntilde;as, quieres y necesitas&quot;" width="1920"/>
+                <img src="46a4548626360e452e35936989c14200bc11ab5395d04620837f305d1dab88d8.png" title=" Santiago clicks learn more" width="1920"/>
+                <img src="46a4548626360e452e35936989c14200bc11ab5395d04620837f305d1dab88d8.png" title=" Santiago clicks on close popup button" width="1920"/>
+                <img src="46a4548626360e452e35936989c14200bc11ab5395d04620837f305d1dab88d8.png" title=" Santiago clicks on loan learn more button" width="1920"/>
+                <img src="3dc44141b7ce1528586f7e02a4d5c4753503f81fdbc304eb6e9e27749d24c810.png" title=" Santiago clicks on loan learn more button (completed)" width="1920"/>
+                <img src="3dc44141b7ce1528586f7e02a4d5c4753503f81fdbc304eb6e9e27749d24c810.png" title=" Santiago clicks learn more (completed)" width="1920"/>
+                <img src="3dc44141b7ce1528586f7e02a4d5c4753503f81fdbc304eb6e9e27749d24c810.png" title=" When I click on &quot;SABER M&Aacute;S&quot; button under the title &quot;Financia lo que sue&ntilde;as, quieres y necesitas&quot; (completed)" width="1920"/>
+                <img src="ecd281a1f4df4c44bf3f7389b5bdd5f252aa0883d00189e5160e565b2f144ab0.png" title=" When I select the &quot;Simular Cr&eacute;dito de libre inversi&oacute;n&quot; option in the Creditos de Consumo page" width="1920"/>
+                <img src="ecd281a1f4df4c44bf3f7389b5bdd5f252aa0883d00189e5160e565b2f144ab0.png" title=" Santiago selects simulate in creditos de consumo page" width="1920"/>
+                <img src="ecd281a1f4df4c44bf3f7389b5bdd5f252aa0883d00189e5160e565b2f144ab0.png" title=" Santiago clicks on simulate loan button" width="1920"/>
+                <img src="ecd281a1f4df4c44bf3f7389b5bdd5f252aa0883d00189e5160e565b2f144ab0.png" title=" Santiago selects simulate in creditos de consumo page (completed)" width="1920"/>
+                <img src="ecd281a1f4df4c44bf3f7389b5bdd5f252aa0883d00189e5160e565b2f144ab0.png" title=" When I select the &quot;Simular Cr&eacute;dito de libre inversi&oacute;n&quot; option in the Creditos de Consumo page (completed)" width="1920"/>
+                <img src="98d71a73daf836f2d6c8153731fe5039c405d29dfa45f5a93d022c1ea8c04485.png" title=" And I select &quot;CONTINUAR&quot;" width="1920"/>
+                <img src="98d71a73daf836f2d6c8153731fe5039c405d29dfa45f5a93d022c1ea8c04485.png" title=" Santiago continues simulation" width="1920"/>
+                <img src="98d71a73daf836f2d6c8153731fe5039c405d29dfa45f5a93d022c1ea8c04485.png" title=" Santiago clicks on continue simulation button" width="1920"/>
+                <img src="98d71a73daf836f2d6c8153731fe5039c405d29dfa45f5a93d022c1ea8c04485.png" title=" Santiago continues simulation (completed)" width="1920"/>
+                <img src="98d71a73daf836f2d6c8153731fe5039c405d29dfa45f5a93d022c1ea8c04485.png" title=" And I select &quot;CONTINUAR&quot; (completed)" width="1920"/>
+                <img src="fbe6a54138e6b013d2f0c8ca8497e7c293d319b526fb7a887b2f34fc2e9f6f99.png" title=" And I select &quot;Si&quot; for the question &quot;&iquest;Sabes cu&aacute;nto dinero necesitas?&quot;" width="1920"/>
+                <img src="fbe6a54138e6b013d2f0c8ca8497e7c293d319b526fb7a887b2f34fc2e9f6f99.png" title=" Santiago selects yes option" width="1920"/>
+                <img src="fbe6a54138e6b013d2f0c8ca8497e7c293d319b526fb7a887b2f34fc2e9f6f99.png" title=" Santiago clicks on yes option" width="1920"/>
+                <img src="fbe6a54138e6b013d2f0c8ca8497e7c293d319b526fb7a887b2f34fc2e9f6f99.png" title=" Santiago selects yes option (completed)" width="1920"/>
+                <img src="fbe6a54138e6b013d2f0c8ca8497e7c293d319b526fb7a887b2f34fc2e9f6f99.png" title=" And I select &quot;Si&quot; for the question &quot;&iquest;Sabes cu&aacute;nto dinero necesitas?&quot; (completed)" width="1920"/>
+                <img src="b60b61c233629895c596d30a0bcb04ca1b7e474e399cfa77da292f3b303a0bc6.png" title=" And I enter a loan amount between 1'000.000 and 500.000.000" width="1920"/>
+                <img src="b60b61c233629895c596d30a0bcb04ca1b7e474e399cfa77da292f3b303a0bc6.png" title=" Santiago enters loan amount" width="1920"/>
+                <img src="b60b61c233629895c596d30a0bcb04ca1b7e474e399cfa77da292f3b303a0bc6.png" title=" Santiago enters '290968506' into loan amount input" width="1920"/>
+                <img src="b60b61c233629895c596d30a0bcb04ca1b7e474e399cfa77da292f3b303a0bc6.png" title=" Santiago enters loan amount (completed)" width="1920"/>
+                <img src="b60b61c233629895c596d30a0bcb04ca1b7e474e399cfa77da292f3b303a0bc6.png" title=" And I enter a loan amount between 1'000.000 and 500.000.000 (completed)" width="1920"/>
+                <img src="c84d57fc50d9817756c807b48557300720c245e1fbc2db3489b019c6b858ad1c.png" title=" And I enter a random number of months between 48 and 84" width="1920"/>
+                <img src="c84d57fc50d9817756c807b48557300720c245e1fbc2db3489b019c6b858ad1c.png" title=" Santiago enters number of months" width="1920"/>
+                <img src="c84d57fc50d9817756c807b48557300720c245e1fbc2db3489b019c6b858ad1c.png" title=" Santiago enters '48' into loan months input" width="1920"/>
+                <img src="c84d57fc50d9817756c807b48557300720c245e1fbc2db3489b019c6b858ad1c.png" title=" Santiago enters number of months (completed)" width="1920"/>
+                <img src="c84d57fc50d9817756c807b48557300720c245e1fbc2db3489b019c6b858ad1c.png" title=" And I enter a random number of months between 48 and 84 (completed)" width="1920"/>
+                <img src="33d7a5df1e9ab035ae3df4ea0725d48ab680120d885a9ebdcca0fa06ec4aca16.png" title=" And I enter a birth date" width="1920"/>
+                <img src="33d7a5df1e9ab035ae3df4ea0725d48ab680120d885a9ebdcca0fa06ec4aca16.png" title=" Santiago enters birth date" width="1920"/>
+                <img src="33d7a5df1e9ab035ae3df4ea0725d48ab680120d885a9ebdcca0fa06ec4aca16.png" title=" Santiago clicks on birth date input" width="1920"/>
+                <img src="f50a0ba97b5ffe7f3440efe4a23d26202ec4f57322997acf895905559b82de4d.png" title=" Santiago clicks on birth date input (completed)" width="1920"/>
+                <img src="f50a0ba97b5ffe7f3440efe4a23d26202ec4f57322997acf895905559b82de4d.png" title=" Santiago clicks on 2000 option" width="1920"/>
+                <img src="3caedd41f4fa2e206ef5b21a2fefe9ace0e8e2d72d992bc77f3500ca1d975ffd.png" title=" Santiago clicks on 2000 option (completed)" width="1920"/>
+                <img src="3caedd41f4fa2e206ef5b21a2fefe9ace0e8e2d72d992bc77f3500ca1d975ffd.png" title=" Santiago clicks on may option" width="1920"/>
+                <img src="a8824a5fa38588153ddc87d7a7b2c12402678f51118abc693d0e90932a355ac0.png" title=" Santiago clicks on may option (completed)" width="1920"/>
+                <img src="a8824a5fa38588153ddc87d7a7b2c12402678f51118abc693d0e90932a355ac0.png" title=" Santiago clicks on 29 option" width="1920"/>
+                <img src="fd675d48b37f57bf6526a10e019557fed3a27d3fbca87a8abc8235416281ee76.png" title=" Santiago clicks on 29 option (completed)" width="1920"/>
+                <img src="fd675d48b37f57bf6526a10e019557fed3a27d3fbca87a8abc8235416281ee76.png" title=" Santiago enters birth date (completed)" width="1920"/>
+                <img src="fd675d48b37f57bf6526a10e019557fed3a27d3fbca87a8abc8235416281ee76.png" title=" And I enter a birth date (completed)" width="1920"/>
+                <img src="d224b1c8419913962b1bf6a0b437995374390ebe4ade480ba19d382de36aa31d.png" title=" And I click on &quot;SIMULAR&quot;" width="1920"/>
+                <img src="d224b1c8419913962b1bf6a0b437995374390ebe4ade480ba19d382de36aa31d.png" title=" Santiago selects simulate in simulation page" width="1920"/>
+                <img src="d224b1c8419913962b1bf6a0b437995374390ebe4ade480ba19d382de36aa31d.png" title=" Santiago clicks on simulate loan button" width="1920"/>
+                <img src="d224b1c8419913962b1bf6a0b437995374390ebe4ade480ba19d382de36aa31d.png" title=" Santiago selects simulate in simulation page (completed)" width="1920"/>
+                <img src="d224b1c8419913962b1bf6a0b437995374390ebe4ade480ba19d382de36aa31d.png" title=" And I click on &quot;SIMULAR&quot; (completed)" width="1920"/>
+                <img src="eaf34fb848e42a1cc8a56395e5aacbc31bcc521518123d7701984a6a6a6844dd.png" title=" Then I should see the estimated monthly payment" width="1920"/>
+                <img src="eaf34fb848e42a1cc8a56395e5aacbc31bcc521518123d7701984a6a6a6844dd.png" title=" Then simulation result is shown" width="1920"/>
+                <img src="58e8db301457d192eb04a598921efa54ed5d4b155356b07bf624578650e64ed4.png" title=" Then simulation result is shown (completed)" width="1920"/>
+                <img src="58e8db301457d192eb04a598921efa54ed5d4b155356b07bf624578650e64ed4.png" title=" Then I should see the estimated monthly payment (completed): <span class='success-color'>SUCCESS</span>" width="1920"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.82</span>
+</div>
+</body>
+</html>
